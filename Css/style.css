@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+  }
+  nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.35rem;
+  }
+  header::before {
+    background-color: rgb(0, 0, 33);
+    content: "";
+    position: absolute;
+    opacity: 0.7;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+  }
+  #firstSection::before {
+    content: "";
+    /* background-color: rgb(90, 27, 148); */
+    background: url("../Images/frst/air-494020_1280.webp")no-repeat center
+    center/cover;
+    position: absolute;
+    opacity: 0.3;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+  }
+  .left {
+    font-size: 1.8rem;
+  }
+  #firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+  }
+  #firstSection > div {
+    width: 30%;
+  }
+  .leftSection {
+    font-size: 2.8rem;
+  }
+  .rightSection img {
+    width: 80%;
+  }
+  .purple {
+    color: rgb(170, 107, 228);
+  }
+  #element {
+    color: rgb(170, 107, 228);
+  }
+  /* .hr{
+        color: white;
+        width: 350px;
+    } */
+
+  #skills::before {
+    content: "";
+    /* background-color: rgb(90, 27, 148); */
+    background: linear-gradient(black 0%, #16213e 60%, black 100%);
+    position: absolute;
+    opacity: 0.7;
+    z-index: -1;
+    height: 101%;
+    width: 100%;
+  }
+  .heading {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+  .heading h3 {
+    padding: 22px;
+  }
+  .box {
+    /* border: 2px solid black; */
+    margin: 10px;
+    /* height: 10%; */
+    width: 10%;
+    padding: 12px;
+    box-shadow: 0px 0px 7px 1px rgba(173, 216, 230, 0.3);
+    background-color: rgba(173, 216, 230, 0.1);
+  }
+  .box img {
+    height: 100px;
+    width: 100px;
+  }
+  /* .boxContainer{
+        width:100%;
+        height: 100%;
+        border: 2px solid green;
+    } */
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sp {
+    text-align: center;
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+  .one {
+    display: flex;
+    justify-content: center;
+  }
+  .two {
+    display: flex;
+    justify-content: center;
+  }
+  .three {
+    display: flex;
+    justify-content: center;
+  }
+
+  .one1 {
+    display: flex;
+    justify-content: center;
+  }
+  .two1 {
+    display: flex;
+    justify-content: center;
+  }
+  .sp1 {
+    text-align: center;
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+  .box1 {
+    /* border: 2px solid black; */
+    margin: 10px;
+    /* height: 10%; */
+    width: 10%;
+    padding: 12px;
+    box-shadow: 0px 0px 7px 1px rgba(168, 205, 218, 0.3);
+    background-color: rgba(25, 27, 27, 0.1);
+    margin: 30px;
+  }
+  .box1 img {
+    height: 100px;
+    width: 100px;
+  }
+  .visit {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: grey;
+    padding: 3px;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+  }
+  .visit:hover{
+    font-size: 20px;
+    background-color: rgb(187, 162, 162);
+  }
+  /* .boxContainer2 .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+    } */
+  #projects::before {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(4, 1, 27, 0.5),
+        rgba(0, 0, 0)
+      ),
+      url("../Images/projects/bg/background1.jpg")no-repeat center
+      center/cover;
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+  }
+
+  #achieve::before {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(4, 1, 27, 0.5),
+        rgba(0, 0, 0)
+      ),
+      url("../Images/achieve/bg/dark-4916164_1280.webp") no-repeat center
+        center/cover;
+    content: "";
+    position: absolute;
+    opacity: 0.5;
+    z-index: -1;
+    height: 102%;
+    width: 100%;
+  }
+  .text{
+    /* text-align: center; */
+    margin-left: 100px;
+  }
+  .h4{
+    font-weight: bold;
+    /* color:rgb(160, 93, 222); */
+    color:lightblue;
+    font-size: 1.4rem;
+  }
+  /* div .first{
+    margin-top: 50px;
+  } */
+  div .first {
+margin-top: 50px;
+margin-right: 69px;
+}
+  /* .rightt{
+    float: right;
+  } */
+  .rightt {
+float: right;
+margin-top: -563px;
+}
+
+
+
+#formm::before{
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(4, 1, 27, 0.5),
+        rgba(0, 0, 0)
+      ),
+      url('../Images/formbg/bg.jpg') no-repeat center
+        center/cover;
+    content: "";
+    position: absolute;
+    opacity: 0.7;
+    z-index: -1;
+    height: 112%;
+    width: 100%;
+}
+.formcontainer{
+    /* border: 2px solid white; */
+    /* background: rgba(0, 0, 0, 0.7); */
+    height: 100%;
+    width: 50%;
+    margin: auto;
+}
+.fg input{
+    height: 30px;
+    width: 600px;
+    background-color: rgb(207, 228, 235);
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    padding: 12px;
+    font-size: 19px;
+    margin: 15px;
+}
+.fg textarea{
+    background-color:rgb(207, 228, 235);
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    margin: 15px;
+}
+.fg-error input{
+    background-color:rgb(207, 228, 235);
+    border-radius: 5px;
+    padding:0 50px;
+    font-size: 19px;
+    /* margin: 15px; */
+    height:40px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+.fg-error input:hover{
+    font-size:22px ;
+    background-color: lightblue;
+}
+
+
+/* 
+.hr2{
+    margin-top: 21px;
+} */
+.line{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    width: 90%;
+    margin: auto;
+    margin-top: 24px;
+}
+.lefft{
+    margin-top: 50px;
+}
+
+#foot::before{
+     background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(4, 1, 27, 0.5),
+        rgba(0, 0, 0)
+      ),
+      url('../Images/footer/background4.jpg') no-repeat center
+        center/cover;
+    content: "";
+    position: absolute;
+    opacity: 0.7;
+    z-index: -1;
+    height: 36%;
+    width: 100%;
+}
+
+.namme{
+    font-size: 1.3rem;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.address{
+    font-size: 1rem;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.mail img{
+    /* font-size: 1.2rem; */
+    margin-left: 9px;
+    height: 27px;
+    width: 27px;
+    filter: invert(100%);
+    /* margin-top: -10px; */
+}
+.flex{
+   display: flex;
+}
+.mail2{
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.mail2 a{
+    color: white;
+    text-decoration: none;
+}
+.mail2 a:hover{
+    color:lightblue;
+    font-size: 20px;
+}
+
+.rigght{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 60px;
+    /* margin-bottom: 30px; */
+}
+.rigght img{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+.rigght img:hover{
+    border-radius: 3px;
+    height: 40px;
+    width: 40px;
+}
